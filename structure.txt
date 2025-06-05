@@ -1,0 +1,8 @@
+project/
+│
+├── main.py
+├── utils.py
+├── models.py
+├── train.py
+├── README.md
+└── requirements.txt
