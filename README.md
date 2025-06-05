@@ -52,7 +52,6 @@ pip install -r requirements.txt
 
 ### 3. How to Run
 
-🔧 Train Teacher
 ```bash
 python main.py --mode teacher --epochs 20
 👶 Train Student without Distillation
