@@ -44,3 +44,38 @@ git clone https://github.com/Sainy-Mishra/knowledge-distillation-temperature-ana
 cd knowledge-distillation-temperature-analysis
 
 ```
+### 2. Install requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. How to Run
+
+🔧 Train Teacher
+```bash
+python main.py --mode teacher --epochs 20
+👶 Train Student without Distillation
+```
+```bash
+python main.py --mode student --epochs 20
+📚 Train Student with Distillation
+```
+
+```bash
+python main.py --mode distill --temperature 4 --alpha 0.3 --epochs 20
+📊 Run Temperature Experiment
+```
+
+```bash
+python experiment_temperatur.py
+✨ Running the app
+```
+
+This will:
+
+Run knowledge distillation with multiple temperature values
+
+Save results to temperature_results.json
+
+Generate a graph temperature_analysis.png
