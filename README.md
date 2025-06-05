@@ -23,6 +23,7 @@ The **temperature** controls how soft the teacher’s predictions are. Higher te
 
 ## 🏗️ Project Structure
 
+```bash
 project/
 │
 ├── main.py
@@ -31,7 +32,7 @@ project/
 ├── train.py
 ├── README.md
 └── requirements.txt
-
+```
 
 ---
 
